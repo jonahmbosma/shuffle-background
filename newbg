@@ -1,0 +1,4 @@
+#!/bin/bash
+file=$(ls ~/Pictures/Backgrounds | sort -R | head -n 1)
+gsettings set org.gnome.desktop.background picture-uri-dark ~/Pictures/Backgrounds/$file
+#echo "Ran" >> /home/jonah/LOGFILE.log
